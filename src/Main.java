@@ -13,16 +13,17 @@ public class Main {
         course2.addTeacher(t2);
         course3.addTeacher(t3);
 
-        Student s1 = new Student("İnek Şaban", 4, "140144015", course1, course2, course3);
-        s1.addBulkExamNote(50,20,40);
+
+        Student s1 = new Student("İnek Şaban", 4, "140144015", course1, course2,course3);
+        s1.addBulkExamNote(50,20,40,100, 80,70);
         s1.isPass();
 
         Student s2 = new Student("Güdük Necmi", 4, "2211133", course1, course2, course3);
-        s2.addBulkExamNote(100,50,40);
+        s2.addBulkExamNote(100,50,40,20,80,90);
         s2.isPass();
 
         Student s3 = new Student("Hayta İsmail", 4, "221121312", course1, course2, course3);
-        s3.addBulkExamNote(50,20,40);
+        s3.addBulkExamNote(50,20,40,20,60,40);
         s3.isPass();
     }
 }
